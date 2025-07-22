@@ -16,13 +16,8 @@ La plantilla médica y administrativa no solo cura, también optimiza, cada empl
 - Pydantic	(validación de datos con modelos BaseModel en schemas.py)
 - venv (entorno virtual para aislar dependencias)
 
-## Getting Started
+## Guía rápida para ejecutar proyecto Módulo I:
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-Guía rápida para ejecutar proyecto Módulo I:
 ### Ejecutar en la terminal de VS CODE:
 .\venv\Scripts\activate # En Windows
 
