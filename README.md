@@ -1,23 +1,20 @@
 ![](https://img.shields.io/badge/Uneweb-blue)
 
-# Project Name
+# FastApi Project - ZV Salud-Integral CA 
 
-> One paragraph statement about the project.
+> Zalud-Integral nació con una visión clara: combinar la excelencia médica con el poder transformador de la automatización. Desde su creación, ha marcado diferencia con su enfoque clínico y técnico; cuenta con salas organizadas como módulos dentro de un sistema bien estructurado, donde cada espacio cumple una función sin interferir con los demás, quirófanos equipados como centros de datos, salas de emergencia que responden tan rápido como un script bien afinado, y una red interna que mantiene la información circulando con más estabilidad que un DNS local bien cacheado.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./cap_bd.JPG)
 
-Additional description about the project and its features.
+La plantilla médica y administrativa no solo cura, también optimiza, cada empleado ha sido capacitado para interactuar con sistemas pensados en la comodidad, rapidez y seguridad tanto del paciente como del profesional. Aquí, las historias clínicas fluyen por API internas, las citas se agendan con lógica predictiva, y los horarios se sincronizan como cron jobs en una arquitectura diseñada para escalar. Zalud-Integral representa una nueva era de centros hospitalarios donde lo humano se cuida con cariño y lo digital con maestría. 
 
-## Built With
+## Construído con: 
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Python
+- FastAPI (framework para construir la API RESTful: rápido, moderno y asincrónico)
+- SQLAlchemy (para interactuar con PostgreSQL)
+- Pydantic	(validación de datos con modelos BaseModel en schemas.py)
+- venv (entorno virtual para aislar dependencias)
 
 ## Getting Started
 
@@ -25,51 +22,39 @@ Additional description about the project and its features.
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
-To get a local copy up and running follow these simple example steps.
+Guía rápida para ejecutar proyecto Módulo I:
+### Ejecutar en la terminal de VS CODE:
+.\venv\Scripts\activate # En Windows
 
-### Prerequisites
+### Instalar dependencias necesarias
+pip install fastapi sqlalchemy pydantic
 
-### Setup
+### Ejecutar archivo main.py
+fastapi dev .\app\main.py
 
-### Install
+### Abrir la documentación interactiva
+http://127.0.0.1:8000/docs
 
-### Usage
+## Test
+Prueba el código
 
-### Run tests
+## Autor
 
-### Deployment
+👤 **Zayleth Vegas**
 
+- GitHub: [@Zayleth](https://github.com/Zayleth)
 
+## Contribución
 
-## Authors
+Se agradecen contribuciones, reportes de errores y sugerencias de nuevas funciones. Siéntete libre de revisar la sección de issues o enviar un pull request si deseas colaborar. [issues page](issues/).
 
-👤 **Arístides José Molina Pérez**
+## Apoyo
 
-- GitHub: [@aristides1000](https://github.com/aristides1000)
-- Twitter: [@aristides_1000](https://twitter.com/aristides_1000)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aristides-molina/)
+⭐⭐⭐⭐⭐
 
-👤 **Author2**
+## Inspiración
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Projecto Módulo I. Curso Postgres: https://postgres-course.vercel.app/ 
 
 ## 📝 License
 
