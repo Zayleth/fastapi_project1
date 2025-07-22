@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Uneweb-blue)
 
-# FastApi Project - Zalud-Integral
+# FastApi Project - Zalud Integral
 
 > Zalud-Integral nació con una visión clara: combinar la excelencia médica con el poder transformador de la automatización. Desde su creación, ha marcado diferencia con su enfoque clínico y técnico; cuenta con salas organizadas como módulos dentro de un sistema bien estructurado, donde cada espacio cumple una función sin interferir con los demás, quirófanos equipados como centros de datos, salas de emergencia que responden tan rápido como un script bien afinado, y una red interna que mantiene la información circulando con más estabilidad que un DNS local bien cacheado.
 
